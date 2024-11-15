@@ -29,7 +29,7 @@ if (-not(Get-Module -Name $moduleName)) {
 Import-Module Microsoft.Online.Sharepoint.PowerShell -Force
 
 # Connect to the SharePoint Online service using the provided admin URL
-Connect-SPOService -url "https://tradercorporation-admin.sharepoint.com"
+Connect-SPOService -url "https://m365x84490777-admin.sharepoint.com"
 
 # Get the directory of the current script
 $myDir = Split-Path -Parent $MyInvocation.MyCommand.Path
